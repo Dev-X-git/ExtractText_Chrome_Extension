@@ -95,7 +95,7 @@ function App() {
         ref={linkRef}
         style={{ display: "none" }}
       >
-        Hidden Link
+        Hidden Link.
       </a>
         <div className="text-[17px] pb-7">
           <p className="text-[#829AB1] pb-2">Extracted Text:</p>
