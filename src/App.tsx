@@ -25,7 +25,7 @@ function App() {
     // Attempt to open a new tab
     const newWindow = window.open(`https://www.google.com/search?q=`, "_blank", "noopener,noreferrer");
     if (newWindow) {
-      newWindow.opener = null; // Ensures the new tab is not linked to the original window
+      newWindow.opener = null; // Ensures the new tab is not linked to the original window.
     } else {
       console.log("Popup blocked. Please allow popups for this site.");
     }
