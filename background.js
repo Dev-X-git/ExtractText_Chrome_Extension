@@ -7,7 +7,7 @@ chrome.action.onClicked.addListener((tab) => {
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
     func: () => {
-      // This function will be executed in the context of the web page
+      // This function will be executed in the context of the web page..
       const selectedText = window.getSelection().toString();
       if (selectedText) {
         return selectedText;
