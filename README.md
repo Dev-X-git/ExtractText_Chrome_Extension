@@ -1,5 +1,5 @@
  
-## Available Scripts
+## Chrome Extension
 
 In the project directory, you can run:
 
